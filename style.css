@@ -9,7 +9,6 @@ body {
     flex-direction: column;
 }
 
-
 .header, .footer{
     background-color: #1F2937;
 }
@@ -19,7 +18,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-
 
 .header {
     flex: 2;
@@ -34,6 +32,11 @@ body {
     padding: 16px 68px;
 }
 
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
 
 .links {
     display: flex;
@@ -68,10 +71,6 @@ body {
     color: #E5E7EB;
 }
 
-.left {
-}
-
-
 .left .hero-subtext {
     margin-bottom: 8px;
 }
@@ -84,7 +83,6 @@ body {
     flex-shrink: 0;
     text-align: center;
 }
-
 
 button {
     background-color: #3882F6;
@@ -112,6 +110,11 @@ button {
     font-weight: 800;
 }
 
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .quote{
     background-color: #E5E7EB;
     font-size: 36px;
@@ -126,17 +129,6 @@ button {
     background-color: #3882F6;
 }
 
-
-
-
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 800;
-}
-
-
-
 .ad button {
     border: 2px solid #F9FaF8;
 }
@@ -144,8 +136,6 @@ button {
     font-size: 18px;
     font-weight: 800;
 }
-
-
 
 .footer, .footer a{
     color: #F9FAF8;
