@@ -56,7 +56,7 @@ body {
 .hero {
     padding: 68px;
     display: flex;
-    gap: 16px;
+    gap: 128px;
     align-items: center;
 }
 
@@ -126,7 +126,7 @@ button {
     border-radius: 12px;
 }
 
-.quote{
+.quote-container{
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
