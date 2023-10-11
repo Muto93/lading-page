@@ -151,15 +151,14 @@ button {
     margin-left: 700px;
 }
 
-.ad-section {
+.call-to-action-section {
     padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-shrink: 0;
 }
 
-.ad{
+.call-to-action{
     background-color: #3882F6;
     padding: 35px 100px;
     border-radius: 8px;
@@ -170,11 +169,11 @@ button {
     color: #F9FAF8;
 }
 
-.ad button {
+.call-to-action button {
     border: 2px solid #F9FaF8;
 }
 
-.ad-heading {
+.call-to-action-heading {
     font-weight: 700;
 }
 
