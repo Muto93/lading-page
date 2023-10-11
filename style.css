@@ -8,56 +8,54 @@ body {
     display: flex;
     flex-direction: column;
 }
-.content {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-}
-.header {
-    flex: 3;
-    display: flex;
-    flex-direction: column;
-}
 
-.top {
-    display: flex;
-    justify-content: space-between;
-    padding: 16px 50px;
-}
-
-.links {
-    display: flex;
-    gap: 16px;
-}
-
-.information {
-    flex: 2;
-
-}
-
-
-.quote{
-    background-color: #E5E7EB;
-    font-size: 36px;
-    color: #1F2937;
-    font-style: italic;
-    font-weight: 300;
-    flex: 2;
-}
-
-.ad{
-    flex: 1;
-}
-
-ul{
-    margin: 0;
-    padding: 0;
-}
 
 .header, .footer{
     background-color: #1F2937;
 }
 
+.content {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 68px;
+}
+
+
+.links {
+    display: flex;
+    gap: 16px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.links a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+.hero {
+    padding: 68px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
 
 .hero .heading {
     font-size: 48px;
@@ -70,13 +68,42 @@ ul{
     color: #E5E7EB;
 }
 
-.logo {
-    font-size: 24px;
-    color: #F9FAF8;
+.left {
 }
+
+
+.left .hero-subtext {
+    margin-bottom: 8px;
+}
+
+.img {
+    background-color: grey;
+    color: #F9FAF8;
+    width: 600px;
+    height: 300px;
+    flex-shrink: 0;
+    text-align: center;
+}
+
 
 button {
     background-color: #3882F6;
+    padding: 8px;
+    border-radius: 8px;
+    color: #F9FAF8;
+    width: 96px;
+    height: 32px;
+    border: none;
+    font-weight: 700;
+}
+
+.information {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+    gap: 24px;
 }
 
 .information-heading {
@@ -85,16 +112,40 @@ button {
     font-weight: 800;
 }
 
+.quote{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+    flex: 2;
+}
 
+.ad{
+    flex: 1;
+    background-color: #3882F6;
+}
+
+
+
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+
+
+.ad button {
+    border: 2px solid #F9FaF8;
+}
 .quote-source {
     font-size: 18px;
     font-weight: 800;
 }
 
-.img {
-    background-color: grey;
-    color: #F9FAF8;
-}
+
 
 .footer, .footer a{
     color: #F9FAF8;
