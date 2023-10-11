@@ -135,7 +135,6 @@ button {
     background-color: #E5E7EB;
     font-size: 36px;
     color: #1F2937;
-    font-style: italic;
     font-weight: 300;
     flex: 2;
     display: flex;
@@ -144,11 +143,15 @@ button {
     align-items: center;
     padding: 128px 256px;
 }
+.quote {
+    font-style: italic;
+}
 
 .quote-source {
     font-size: 18px;
     font-weight: 800;
     margin-left: 700px;
+    font-style: none;
 }
 
 .call-to-action-section {
